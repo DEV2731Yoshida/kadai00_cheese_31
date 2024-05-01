@@ -1,0 +1,63 @@
+html{
+    font-size:100%; /*ユーザー設定の文字サイズを正しく反映*/
+}
+*{
+    box-sizing:border-box; /*余白や線を幅や高さに含める*/
+}
+img{
+    max-width:100%; /*画像が親要素からはみ出すのを防ぐ*/
+    height:auto;
+}
+
+
+header{
+    width:100%;
+        background-color:white;
+        display:flex;  /*ロゴとulを横に並べる*/
+    }
+
+    ul{
+        display:flex;
+        list-style:none;
+    }
+
+    li{
+        margin-left:50px;
+    }
+    a{
+        text-decoration:none;
+    }
+
+
+
+
+
+
+    .mainvisual {
+        font-size:px; 
+        position: relative;
+    }
+    
+    .mainvisual img {
+        width:100%;
+    }
+
+    #seka {
+        position: absolute;
+        top:0;
+        left:0;
+        font-size:px;
+        color: white;
+    }
+
+    #mainvisual
+
+    #about {
+        color: #ffd61a;
+        font-size: 24px; 
+        }
+
+
+    #footer {
+    background-color: #707070;
+    }
